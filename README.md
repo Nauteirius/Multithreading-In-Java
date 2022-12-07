@@ -2,7 +2,7 @@
 Świat powoli uwalnia się spod jarzma pandemii. Pewna nadmorska metropolia w swoim porcie zmaga się z ogromnym ruchem zgromadzonym po miesiącach lockdown'u. Twoim zadaniem jest optymalne i jednocześnie bezpieczne zarządzanie ruchem morskim w tym porcie. Zadanie jednak nie jest takie proste. Port ma ograniczoną liczbę doków N, do których cumować mogą statki o różnych wielkościach K (K <= N). Każdy statek cumując zajmuje więc K następujących po sobie doków. Na domiar złego jedyna droga do portu prowadzi przez kanał, w którym może znajdować się maksymalnie M statków jednocześnie, niezależnie od ich rozmiaru. Orientacyjny rysunek dla N = 5 i M = 3 został przedstawiony:
 ![obraz](https://user-images.githubusercontent.com/97364999/206308353-59088f7b-83a8-4e95-beae-110835831a3c.png)
 
-Rysunek poglądowy zadania - jeśli go nie widzisz, kliknij link 'Otwórz w nowym oknie' powyżej.
+Rysunek poglądowy zadania
 
 Napisz klasę implementującą interfejs SeaportManager o nazwie SeaportManagerImpl, która będzie właściwie zarządzała ruchem w porcie. Osiągnij to poprzez odpowiednie blokowanie wątku w metodach z interfejsu SeaportManager. Każdy statek zaimplementowany jest jako wątek, który wywołuje kolejno metody:
 
